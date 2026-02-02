@@ -1,10 +1,9 @@
 table {
-    width: 100%;              /* Bảng rộng full màn hình */
-    border-collapse: collapse; /* Gộp các đường viền đôi thành 1 */
+    width: 100%;
+    border-collapse: collapse;
 }
-
 th, td {
-    border: 1px solid #333;   /* Màu viền xám đậm */
-    padding: 10px;            /* Tạo khoảng thoáng bên trong ô */
-    text-align: center;         /* Căn lề trái cho chữ */
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
 }

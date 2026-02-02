@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href = "task4.css">
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <h3 class="section-title">Basic Info</h3>
+
+            <div class="form-row">
+                <label class="label-col">Employee ID</label>
+                <div class="input-col">
+                    <span class="readonly-text">9</span>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label class="label-col">Last Name</label>
+                <div class="input-col">
+                    <input type="text" value="Dodsworth">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label class="label-col">First Name</label>
+                    <div class="input-col">
+                        <input type="text" value="Anne">
+                    </div>
+            </div>
+
+            <div class="form-row">
+                <label class="label-col">Gender</label>
+                <div class="input-col radio-group">
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="xxx"> XXX</label>
+                    <label><input type="radio" name="gender" value="zzz" checked> ZZZ</label>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label class="label-col">Title</label>
+                <div class="input-col">
+                    <input type="text" value="Sales Representative">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label class="label-col">Suffix</label>
+                <div class="input-col">
+                    <input type="text" value="Ms.">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label class="label-col">BirthDate</label>
+                <div class="input-col icon-wrap">
+                    <input type="text" value="1969-07-02 00:00:00">
+                    <span class="help-text">(?)</span>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label class="label-col">HireDate</label>
+                <div class="input-col">
+                    <input type="text" value="1994-11-15 00:00:00">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label class="label-col">SSN # (if applicable)</label>
+                <div class="input-col icon-wrap">
+                    <input type="text">
+                    <span class="help-icon">🔍</span>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label class="label-col">Reports To</label>
+                <div class="input-col">
+                    <select>
+                        <option>Buchanan</option>
+                        <option>Davolio</option>
+                        <option>Fuller</option>
+                    </select>
+                </div>
+            </div>
+            <h3 class="section-title">Contact Info</h3>
+
+            <div class="form-row">
+                <label class="label-col">Email</label>
+                <div class="input-col">
+                    <input type="email" placeholder="name@example.com">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label class="label-col">Address</label>
+                <div class="input-col">
+                    <input type="text" value="7 Houndstooth Rd.">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label class="label-col">City</label>
+                <div class="input-col">
+                    <input type="text" value="London">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label class="label-col">Postal Code</label>
+                <div class="input-col">
+                    <input type="text" value="WG2 7LT">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label class="label-col">Country</label>
+                <div class="input-col">
+                    <select>
+                        <option>Russian Federation</option>
+                        <option>United Kingdom</option>
+                        <option>USA</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label class="label-col">US Home Phone</label>
+                <div class="input-col">
+                    <input type="text" value="(234)234-2342">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label class="label-col">Photo</label>
+                <div class="input-col">
+                    <input type="text" value="EmpID9.bmp">
+                </div>
+            </div>
+
+            <h3 class="section-title">Optional Info</h3>
+
+            <div class="form-row align-top">
+                <label class="label-col">Notes</label>
+                <div class="input-col">
+                    <div class="toolbar">
+                        <span><b>B</b></span>
+                        <span><i>I</i></span>
+                        <span><u>U</u></span>
+                        <span class="separator">|</span>
+                        <span>Align Left</span>
+                        <span>H1</span>
+                        <span>H2</span>
+                        <span class="close-icon">✖</span>
+                    </div>
+                    <textarea rows="4">Anne has a BA degree in English from St. Lawrence College. She is fluent in French and German.ZZZ</textarea>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label class="label-col">Preferred Shift</label>
+                <div class="input-col checkbox-group">
+                    <label><input type="checkbox"> Regular</label>
+                    <label><input type="checkbox" checked> Gravy Yard</label>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label class="label-col">Active?</label>
+                <div class="input-col">
+                    <input type="checkbox" checked>
+                </div>
+            </div>
+            <div class="form-row align-top">
+                <label class="label-col">Are you human?</label>
+                <div class="input-col">
+                    <div class = "a">
+                    <div class="captcha-text">TIDAWO</div>
+                    <div class="small-link">Click to change</div>
+                    <input type="text">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-footer">
+                <div class="required-note">* required</div>
+                <div class="buttons">
+                    <button type="submit" class="btn-submit">💾 Submit</button>
+                    <button type="button" class="btn-cancel">✖ Cancel</button>
+                </div>
+            </div>
+</body>
